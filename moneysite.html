@@ -220,6 +220,95 @@
         border-radius: 10px;
       }
 
+      .glow-on-title {
+        border: none;
+        outline: none;
+        color: #ffffff;
+        background: #111;
+        cursor: pointer;
+        position: relative;
+        z-index: 0;
+        border-radius: 10px;
+      }
+
+      .glow-on-title:before {
+        content: '';
+        background: linear-gradient(88deg, #00a2ff, #00a2ff, #00a2ff, #00a2ff, #00a2ff, #00a2ff, #00a2ff, #00a2ff);
+        position: absolute;
+        top: -2px;
+        left: -2px;
+        background-size: 400%;
+        z-index: -1;
+        filter: blur(5px);
+        width: calc(100% + 4px);
+        height: calc(100% + 4px);
+        animation: glowing 20s linear infinite;
+        opacity: 0;
+        transition: opacity .3s ease-in-out;
+        border-radius: 10px;
+      }
+
+      .glow-on-title:before {
+        opacity: 1;
+      }
+
+      .glow-on-title:after {
+        z-index: -1;
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background: #00a2ff;
+        left: 0;
+        top: 0;
+        border-radius: 10px;
+      }
+
+      .glow-on-center {
+        border: none;
+        outline: none;
+        color: #ffffff;
+        background: #111;
+        cursor: pointer;
+        position: relative;
+        z-index: 0;
+        border-radius: 10px;
+      }
+
+      .glow-on-center:before {
+        content: '';
+        background: linear-gradient(88deg, #007209, #007209, #007209, #007209, #007209, #007209, #007209, #007209);
+        position: absolute;
+        top: -2px;
+        left: -2px;
+        background-size: 400%;
+        z-index: -1;
+        filter: blur(5px);
+        width: calc(100% + 4px);
+        height: calc(100% + 4px);
+        animation: glowing 20s linear infinite;
+        opacity: 0;
+        transition: opacity .3s ease-in-out;
+        border-radius: 10px;
+      }
+
+      .glow-on-center:before {
+        opacity: 1;
+      }
+
+      .glow-on-center:after {
+        z-index: -1;
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background: #007209;
+        left: 0;
+        top: 0;
+        border-radius: 10px;
+      }
+      
+
       @keyframes glowing {
         0% {
           background-position: 0 0;
@@ -249,9 +338,9 @@
       </div>
       <amp-img src="https://hydraruzxpnevv4af-onion.com/wp-content/uploads/2025/12/bangdro-min.jpg" width="1946" height="1946" layout="intrinsic" class="banner"></amp-img>
       <a href="https://rodgjascea.store/" target="_blank" rel="noreferrer noopener" role="button" class="btn-login glow-on-hover">MASUK</a>
-      <a href="https://rodgjascea.store/" target="_blank" rel="noreferrer noopener" role="button" class="btn-daftar glow-on-hover">DAFTAR</a>
+      <a href="https://rodgjascea.store/" target="_blank" rel="noreferrer noopener" role="button" class="btn-daftar glow-on-title">DAFTAR</a>
       <a href="https://direct.lc.chat/19017035/" target="_blank" rel="noreferrer noopener" role="button" class="btn-daftar glow-on-hover">LIVECHAT</a>
-      <a href="https://wa.me/6281269819235" target="_blank" rel="noreferrer noopener" role="button" class="btn-daftar glow-on-hover">WHATSAPP RORO4D</a>
+      <a href="https://slackc.com/downloads/app/Roro4D.apk" target="_blank" rel="noreferrer noopener" role="button" class="btn-daftar glow-on-center">DOWNLOAD APK RORO4D</a>
       <p>
       <p class="copyright"> @ Copyright 2025 <a href="https://whoesale01.com/roro4d/" rel="noopener noreferrer" style="color: #ff0000;">RORO4D</a></p> 
     </div>
